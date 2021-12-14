@@ -1,5 +1,5 @@
 {
-    "self_mode": true,
+    "self_mode": false,
     "anti_delete": false,
     "anti_call": false,
     "autorespon": false,
