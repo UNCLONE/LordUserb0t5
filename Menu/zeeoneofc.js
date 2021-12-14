@@ -1,15 +1,5 @@
 exports.allmenu = (namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
-return`Hello ${pushname}🤗 Saya ${namabot}
-
-📛 Nama : ${pushname} 
-🆔 Nomor : @${sender.split("@")[0]} 
-📊 Status : ${isOwner?`Owner ⚔️`:isPrem?`Premium 🏅`:`Free User`} 
-🎁 Expired Prem : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
-💳 Limit : ${isOwner?`Unlimited`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
-💹 Balance : ${getBalance(sender, balance)}
-
-
-*Owner-Menu*
+return`*Owner-Menu*
 ${simbolnya} ${prefix}bc [text]
 ${simbolnya} ${prefix}bcimage [reply foto]
 ${simbolnya} ${prefix}ban @tag
